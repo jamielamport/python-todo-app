@@ -15,4 +15,4 @@ def write_todos(todos, filepath="files/saved_files/todos.txt"):
         file.writelines(todos)
 
 if __name__ == "__main__":
-    print("hello from functions")
+    print(get_todos())
