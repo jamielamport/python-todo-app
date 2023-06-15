@@ -1,4 +1,6 @@
-def get_todos(filepath="files/saved_files/todos.txt"):
+FILEPATH = "files/saved_files/todos.txt"
+
+def get_todos(filepath=FILEPATH):
     """ Read a test file and return the
     list of todo items
     """
@@ -7,7 +9,7 @@ def get_todos(filepath="files/saved_files/todos.txt"):
     return todos
 
 
-def write_todos(todos, filepath="files/saved_files/todos.txt"):
+def write_todos(todos, filepath=FILEPATH):
     """ Read the current todos from a file, add our new
     todo and then write back to the file
     """
