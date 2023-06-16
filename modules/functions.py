@@ -1,4 +1,4 @@
-FILEPATH = "files/saved_files/todos.txt"
+FILEPATH = "todos.txt"
 
 def get_todos(filepath=FILEPATH):
     """ Read a test file and return the
